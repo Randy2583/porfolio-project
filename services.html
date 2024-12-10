@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <scrip src="https://kit.fontawesome.com/ed45717f26.js" crossorigin="anonymous"></script>
+    
+    <!-- Font Awesome cdnjs -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <title>ACMACH</title>
+
+  </head>
+<body>
+  <div class="navbar-fixed">
+    <nav id="top-bar" class="z-depth-0">
+    </nav>
+  </div>
+  <div class="navbar-fixed">
+    <nav id="mid-bar" class="z-depth-0">
+    </nav>
+  </div>
+  <div class="navbar-fixed">
+    <nav id="bot-bar" class="z-depth-.5">
+      <div class="nav-wrapper">
+        <img src="images/logo_main.png" class="brand-logo">
+        <a href="#" data-target="slide-out" class="sidenav-trigger blue-text"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <!-- Side Navigation -->
+        <ul id="slide-out" class="sidenav">
+          <li>
+            <div class="nav-logo">
+              <img src="images/logo_main.png" class="responsive-img">
+            </div>
+          </li>
+          <div class="divider" ></div>
+          <li><a href="index.html" class="waves-effect"><i class="material-icons">home</i>Home</a></li>
+          <li><a href="about.html" class="waves-effect"><i class="material-icons">info</i>About</a></li>
+          <li><a href="services.html" class="waves-effect"><i class="material-icons">build</i>Services</a></li>
+          <li><a href="products.html" class="waves-effect"><i class="material-icons">shopping_cart</i>Products</a></li>
+          <li><a href="projects.html" class="waves-effect"><i class="material-icons">work</i>Projects</a></li>
+          <li><a href="contact.html" class="waves-effect"><i class="material-icons">mail</i>Contact Us</a></li>
+        </ul>
+
+        <div class="container">
+          <h2 class="center blue-text">Services</h2>
+                <div class="divider"></div>
+        </div>
+
+
+
+
+
+
+
+        
+
+
+        <!-- <div style="height: 1000px"></div> -->
+
+   <!-- Jquery CDN -->
+   <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+   <!-- Compiled and minified JavaScript -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+       
+       <script>
+         $(document).ready(function(){
+           $('.sidenav').sidenav();
+           $('.slider').slider({
+             fullWidth: true,
+           });
+           $('.materialboxed').materialbox();
+           $('.parallax').parallax();
+           $('.tabs').tabs();
+           $('.datepicker').datepicker();
+           $('.timepicker').timepicker();
+           $('.carousel').carousel({});
+           
+ 
+         });
+       </script>
+ 
+       
+ </body>
+ </html>

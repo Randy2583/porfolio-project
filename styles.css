@@ -1,0 +1,231 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont,
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #424242;
+}
+#top-bar {
+  height: 20px;
+  background-color: #818181;
+  z-index: 3;
+}
+
+#mid-bar {
+ margin-top: -50px;
+ height: 30px;
+  background-color: #d3eaff
+}
+
+#bot-bar {
+  margin-top: -90px;
+  height: 60px;
+  backdrop-filter: blur(5px);
+  background-color: rgba(255, 255, 255, 0.2)
+  
+}
+
+.nav-wrapper {
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  padding-left: 60px;
+  padding-right: 100px;
+}
+.brand-logo {
+  width: 100px;
+  margin-top: 5px;
+}
+
+.nav-logo {
+  position: align-center;
+  margin-top: 20px;
+  margin-left: 60px;
+  width: 125px;
+}
+
+ul li a {
+  color: #242424;
+}
+
+#slide-out {
+  background-color: rgba(255, 255, 255, 0.7);
+  position: fixed;
+  width: 250px;
+}
+.sidenav-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  height: 120vh;
+  background-color: rgba(0, 0, 0, 0);
+  z-index: 997;
+  display: none;
+}
+
+.slider {
+  margin-top: -80px;
+}
+
+.emergency {
+  margin-bottom: -40px;
+  font-weight: bold;
+  color: #4c99ff;
+}
+#h3-slide {
+  margin-bottom: -30px;
+}
+
+.slider .indicators {
+  box-sizing: content-box;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: -40px;
+  bottom: -50px;
+}
+
+.slider .indicators .indicator-item.active {
+  background-color: #55cfff;
+}
+
+.btn {
+  background-color: #55cfff;
+  color: #ffffff;
+  /* border: 2px solid #747474; */
+  box-shadow: 1px;
+  transition: 0.3s;
+}
+
+.btn:hover{
+  background-color: #525252;
+  color: #fff;
+ 
+}
+.btn:hover active{
+  background-color: #525252;
+  color: #fff;
+ 
+}
+
+.tabs .tab a:hover, .tabs .tab a:focus.active {
+  background-color: rgba(115, 211, 255, 0.2);
+  color: #55cfff;
+}
+
+.tabs .indicator {
+  background-color: #55cfff;
+}
+
+#story {
+  margin-inline-start: responsive;
+}
+
+.card:hover {
+  background-color: #00a2ff;
+  color: #fff
+  
+}
+
+.card-content1 {
+  justify-content: center;
+  align-items: center;
+  height: 170px;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.2)
+}
+
+.card-content i{
+  display: flex;
+  font-size: 5rem;
+  margin: 50px 0;
+  justify-content: center;
+  align-items: center;
+  height: 90px;
+  flex-direction: column;
+  border-radius: 8px;
+  transition: background-color 0.4s, color 0.4s;
+  
+}
+
+.rating {
+  color: #FFD700;
+}
+
+.card-panel {
+  max-width: 300px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.circle {
+  width: 60px;  
+  height: 60px;
+}
+
+#partners img {
+  margin: 20px 0; 
+  max-height: 70px;
+}
+
+#contact-expert {
+  background-color: #f0f4f8; 
+}
+
+#appointment-form {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.rating i {
+  max-width: 17px;
+}
+
+.datepicker-date-display {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 auto;
+  -ms-flex: 1 auto;
+  flex: 1 auto;
+  background-color: #55cfff;
+  color: #fff;
+  padding: 20px 22px;
+  font-weight: 500;
+}
+
+.timepicker-digital-display {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 auto;
+  -ms-flex: 1 auto;
+  flex: 1 auto;
+  background-color: #55cfff;
+  padding: 10px;
+  font-weight: 300;
+}
+
+.collection {
+  background-color: #424242;
+  color: #f0f4f8;
+}
+
+.collection .collection-item {
+  background-color: #696969;
+  line-height: 1.5rem;
+  padding: 10px 20px;
+  margin: 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+footer {
+  padding-bottom: 20px;
+}
+
+#about1 img{
+  display:flexbox;
+}
